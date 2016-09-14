@@ -25,3 +25,12 @@ setopt SHARE_HISTORY         # Check history file after each command
 
 # Tool configuration
 export CLICOLOR=1  # Colorized output for ls
+
+# Input
+KEYTIMEOUT=1
+bindkey -v 
+bindkey '^A' beginning-of-line
+bindkey '^E' end-of-line
+bindkey '^R' history-incremental-search-backward
+bindkey '^H' backward-delete-char
+bindkey '^?' backward-delete-char
