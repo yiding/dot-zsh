@@ -34,3 +34,7 @@ bindkey '^E' end-of-line
 bindkey '^R' history-incremental-search-backward
 bindkey '^H' backward-delete-char
 bindkey '^?' backward-delete-char
+
+# aliases
+alias ec="emacsclient --alternate-editor=''"
+alias ecc="emacsclient --alternate-editor='' --create-frame"
